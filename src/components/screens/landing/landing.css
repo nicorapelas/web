@@ -1,0 +1,57 @@
+/* Basic styling for the landing page */
+
+.landing {
+  font-family: Arial, sans-serif;
+  text-align: center;
+  color: #333;
+}
+
+.hero {
+  background-color: #4a90e2;
+  color: white;
+  padding: 50px 20px;
+}
+
+.hero h1 {
+  font-size: 2.5em;
+  margin: 0;
+}
+
+.hero p {
+  font-size: 1.2em;
+  margin: 10px 0;
+}
+
+.cta-button {
+  background-color: #ff8c00;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  font-size: 1em;
+  cursor: pointer;
+}
+
+.cta-button:hover {
+  background-color: #e67e00;
+}
+
+.features {
+  display: flex;
+  justify-content: space-around;
+  padding: 40px 20px;
+}
+
+.feature {
+  max-width: 200px;
+}
+
+.feature h2 {
+  font-size: 1.5em;
+  color: #4a90e2;
+}
+
+.cta-section {
+  background-color: #f4f4f4;
+  padding: 40px 20px;
+}
